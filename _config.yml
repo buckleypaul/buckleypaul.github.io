@@ -29,8 +29,8 @@ github_username:  buckleypaul
 
 # Build settings
 remote_theme: jitinnair1/snippet-book
-style_light: "latte" # available options: latte, frappe, macchiato, mocha
-style_dark: "macchiato" # available options: latte, frappe, macchiato, mocha
+style_light: latte # available options: latte, frappe, macchiato, mocha
+style_dark: macchiato # available options: latte, frappe, macchiato, mocha
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
