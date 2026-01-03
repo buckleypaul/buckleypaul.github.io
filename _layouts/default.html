@@ -22,7 +22,7 @@
 
       {%- include header.html -%}
 
-    <main>
+    <main class="content content-{{ page.layout }}{% if page.collection %} collection-{{ page.collection }}{% endif %}">
       {{ content }}
     </main>
 
