@@ -2,7 +2,7 @@
  * Light theme variables (adapted for frappe theme)
  */
 
-@use "colors/_frappe" as *;
+@import "colors/_frappe";
 
 :root {
     --base-color: #{$frappe-blue};

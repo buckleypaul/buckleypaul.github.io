@@ -2,8 +2,8 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@use "_base";
-@use "_code";
-@use "colors/_latte";
-@use "theme/_theme-latte";
-@use "syntax-highlighting/_syntax-latte";
+@import "_base";
+@import "_code";
+@import "colors/_latte";
+@import "theme/_theme-latte";
+@import "syntax-highlighting/_syntax-latte";

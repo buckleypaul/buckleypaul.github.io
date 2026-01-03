@@ -1,11 +1,10 @@
-@use "colors/_mocha" as *;
-@use "sass:color";
+@import "colors/_mocha";
 
 .highlight {
   .hll {
     background-color: $mocha-surface1;
   }
-  background: color.adjust($mocha-surface0, $lightness:5%);
+  background: adjust-color($mocha-surface0, $lightness: 5%);
   .c {
     color: $mocha-subtext1;
     font-style: italic;
