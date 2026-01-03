@@ -4,4 +4,4 @@ layout: home
 permalink: /
 ---
 
-Beginning page.
+A collection of thoughts.
