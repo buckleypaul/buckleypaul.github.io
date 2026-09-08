@@ -1,0 +1,32 @@
+@import "colors/_clearing";
+
+:root {
+  --base-color: #{$clearing-ember};
+  --border: dashed 1px #{rgba($clearing-surface2, 1)};
+  --selection-background: #{rgba($clearing-creek, 0.35)};
+  --selection-text: #{$clearing-text};
+  --background-color: #{$clearing-base};
+  --text-color: #{$clearing-text};
+  --placeholder-color: #{$clearing-subtext0};
+  --link-color: #{$clearing-ember};
+  --inline-code-background: #{$clearing-surface0};
+
+  --code-color-1: #{$clearing-fern};
+  --code-color-2: #{$clearing-base};
+  --code-color-3: #{$clearing-clay};
+  --code-color-4: #{$clearing-clay};
+  --code-color-5: #{$clearing-juniper};
+  --code-color-6: #{$clearing-creek};
+  --code-color-7: #{$clearing-clay};
+  --code-color-8: #{$clearing-juniper};
+  --code-color-9: #{$clearing-slate};
+  --code-color-10: #{$clearing-slate};
+  --code-color-11: #{$clearing-base};
+  --code-color-12: #{$clearing-clay};
+  --code-color-13: #{$clearing-juniper};
+  --code-color-14: #{$clearing-slate};
+  --code-color-15: #{$clearing-clay};
+  --code-color-16: #{$clearing-juniper};
+  --code-color-17: #{$clearing-clay};
+  --code-color-18: #{$clearing-slate};
+}

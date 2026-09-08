@@ -1,0 +1,134 @@
+@import "colors/_clearing";
+
+// Role map from the Tamarack README:
+//   ember functions - amber numbers - moss tags/attrs - fern strings
+//   juniper types - creek operators/builtins/escapes - slate properties/params
+//   clay keywords - chokeberry constants/decorators - overlay1 comments
+//   subtext0 punctuation - text everything unclaimed
+
+.highlight {
+  .hll {
+    background-color: $clearing-surface1;
+  }
+  background: $clearing-surface0;
+  color: $clearing-text;
+
+  // Comments
+  .c, .cm, .c1, .cs, .cd {
+    color: $clearing-overlay1;
+    font-style: italic;
+  }
+  .cp {
+    color: $clearing-chokeberry;
+  }
+  .err {
+    border: 1px solid $clearing-clay;
+  }
+
+  // Keywords and storage
+  .k, .kc, .kd, .kn, .kr {
+    color: $clearing-clay;
+    font-weight: bold;
+  }
+  .kp {
+    color: $clearing-clay;
+  }
+  .kt {
+    color: $clearing-juniper;
+  }
+
+  // Operators, builtins, escapes
+  .o, .ow {
+    color: $clearing-creek;
+  }
+  .ow {
+    font-weight: bold;
+  }
+  .bp, .nb {
+    color: $clearing-creek;
+  }
+
+  // Numbers
+  .m, .mf, .mh, .mi, .mo, .mb, .il {
+    color: $clearing-amber;
+  }
+
+  // Strings
+  .s, .sb, .sc, .s2, .sh, .sx, .s1, .sa, .dl {
+    color: $clearing-fern;
+  }
+  .sd {
+    color: $clearing-fern;
+    font-style: italic;
+  }
+  .se {
+    color: $clearing-creek;
+    font-weight: bold;
+  }
+  .si {
+    color: $clearing-creek;
+    font-weight: bold;
+  }
+  .sr, .ss {
+    color: $clearing-moss;
+  }
+
+  // Names
+  .nf, .fm {
+    color: $clearing-ember;
+  }
+  .nc, .nn {
+    color: $clearing-juniper;
+    font-weight: bold;
+  }
+  .ne {
+    color: $clearing-clay;
+    font-weight: bold;
+  }
+  .no, .nd {
+    color: $clearing-chokeberry;
+  }
+  .na, .nl, .nt {
+    color: $clearing-moss;
+  }
+  .nv, .vc, .vg, .vi, .py {
+    color: $clearing-slate;
+  }
+  .ni {
+    color: $clearing-subtext0;
+    font-weight: bold;
+  }
+
+  // Punctuation and whitespace
+  .p, .w {
+    color: $clearing-subtext0;
+  }
+
+  // Generic (diffs, prompts, headings)
+  .gd {
+    color: $clearing-clay;
+  }
+  .gi {
+    color: $clearing-fern;
+  }
+  .ge {
+    font-style: italic;
+  }
+  .gs {
+    font-weight: bold;
+  }
+  .gr, .gt {
+    color: $clearing-clay;
+  }
+  .gh, .gu {
+    color: $clearing-ember;
+    font-weight: bold;
+  }
+  .gp {
+    color: $clearing-slate;
+    font-weight: bold;
+  }
+  .go {
+    color: $clearing-subtext1;
+  }
+}

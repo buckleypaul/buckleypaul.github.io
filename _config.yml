@@ -7,9 +7,9 @@ url:            "paulbuckley.me"
 # https://jekyllrb.com/docs/configuration/options/
 timezone: America/Los_Angeles
 
-# Available style options based on catppuccin: latte, frappe, macchiato, mocha
-style_light: latte 
-style_dark: macchiato
+# Available style options based on tamarack: clearing (light), thicket (dark)
+style_light: clearing
+style_dark: thicket
 
 #include pages
 include:

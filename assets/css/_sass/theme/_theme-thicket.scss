@@ -1,0 +1,32 @@
+@import "colors/_thicket";
+
+:root {
+  --base-color: #{$thicket-ember};
+  --border: dashed 1px #{rgba($thicket-surface2, 1)};
+  --selection-background: #{rgba($thicket-creek, 0.35)};
+  --selection-text: #{$thicket-text};
+  --background-color: #{$thicket-base};
+  --text-color: #{$thicket-text};
+  --placeholder-color: #{$thicket-subtext0};
+  --link-color: #{$thicket-ember};
+  --inline-code-background: #{$thicket-surface0};
+
+  --code-color-1: #{$thicket-fern};
+  --code-color-2: #{$thicket-base};
+  --code-color-3: #{$thicket-clay};
+  --code-color-4: #{$thicket-clay};
+  --code-color-5: #{$thicket-juniper};
+  --code-color-6: #{$thicket-creek};
+  --code-color-7: #{$thicket-clay};
+  --code-color-8: #{$thicket-juniper};
+  --code-color-9: #{$thicket-slate};
+  --code-color-10: #{$thicket-slate};
+  --code-color-11: #{$thicket-base};
+  --code-color-12: #{$thicket-clay};
+  --code-color-13: #{$thicket-juniper};
+  --code-color-14: #{$thicket-slate};
+  --code-color-15: #{$thicket-clay};
+  --code-color-16: #{$thicket-juniper};
+  --code-color-17: #{$thicket-clay};
+  --code-color-18: #{$thicket-slate};
+}
